@@ -10,3 +10,7 @@ UPDATE customers
 SET Email = 'hello@barroso.com'
 WHERE CustomerID = 3;
 
+DELETE FROM cars
+WHERE CarID = "3GKEC16TX1G221001"
+
+

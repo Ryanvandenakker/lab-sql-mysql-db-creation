@@ -33,7 +33,7 @@ CarID CHAR(17) PRIMARY KEY,
 Model VARCHAR(20),
 Manufacturer VARCHAR(20),
 Color VARCHAR(20),
-Year DATETIME
+Year YEAR
 );
 
 DROP TABLE IF EXISTS invoice;
@@ -45,8 +45,4 @@ CarID CHAR(17),
 CustomerID INT,
 StaffID INT
 );
-
-SHOW TABLES
-
-
 

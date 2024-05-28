@@ -9,8 +9,8 @@ VALUES
 	(1, "Arne", "Pols", "Amsterdam"),
     (2, "Marcos", "Gouveia", "Madrid"),
     (3, "Masumi", "Kubota", "Tokyo"),
-    (3, "Ralf", "Siegel", "Berlin"),
-    (4, "Martien", "Donders", "Amsterdam");
+    (4, "Ralf", "Siegel", "Berlin"),
+    (5, "Martien", "Donders", "Amsterdam");
     
 INSERT INTO cars (CarID, Manufacturer, Model, Color, Year)
 VALUES
@@ -20,7 +20,7 @@ VALUES
     ("19XFB2F50EE045165", "Maserati", "Ghibli", "Black", 2015),
     ("3GKEC16TX1G221000", "Chevrolet", "Corvette", "Grey", 1969),
     ("2MEFM75W42X688317", "Subaru", "Impreza", "Blue", 1999),
-	("3GKEC16TX1G221000", "Chevrolet", "Corvette Z06", "Grey", 1969);
+	("3GKEC16TX1G221001", "Chevrolet", "Corvette Z06", "Grey", 1969);
     
 INSERT INTO invoice (InvoiceID, InvDate, CarID, CustomerID, StaffID)
 VALUES
